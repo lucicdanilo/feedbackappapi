@@ -69,5 +69,5 @@ mongoose.connect(
     console.log("Connected to DB!");
   }
 );
-
-app.listen(process.env.PORT);
+port = process.env.PORT;
+app.listen(port || 3000);
