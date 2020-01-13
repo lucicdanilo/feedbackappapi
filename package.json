@@ -1,0 +1,16 @@
+{
+  "name": "feedbackappapi",
+  "version": "1.0.0",
+  "description": "Web API for my feedback app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Danilo Lučić",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7",
+    "nodemon": "^2.0.2"
+  }
+}
