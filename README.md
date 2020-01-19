@@ -6,9 +6,9 @@ Live app you can find [here](https://feedbackapp.netlify.com/).
 ### Instructions 
 
 API is hosted on domain:
-'''
+```
 https://feedbackappapi.glitch.me
-'''
+```
 
 
 
