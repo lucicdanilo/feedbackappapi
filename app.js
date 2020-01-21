@@ -63,7 +63,7 @@ app.post("/cvFeedback", (req, res) => {
 
 // Connectiong to DB
 mongoose.connect(
-  process.env.DB_CONNECT,
+  process.env.DB_CONNECTION,
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log("Connected to DB!");
