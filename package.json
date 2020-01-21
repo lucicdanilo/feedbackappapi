@@ -4,7 +4,7 @@
   "description": "Web API for my feedback app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "build": "nodemon app.js"
   },
   "author": "Danilo Lučić",
   "license": "ISC",
