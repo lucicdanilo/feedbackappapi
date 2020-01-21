@@ -63,7 +63,7 @@ app.post("/cvFeedback", (req, res) => {
 
 // Connectiong to DB
 mongoose.connect(
-  'mongodb+srv://admin123:admin123@cluster0-m62ke.mongodb.net/feedbackApp?retryWrites=true&w=majority',
+  process.env.DB_CONNECT,
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log("Connected to DB!");
