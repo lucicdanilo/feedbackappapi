@@ -10,6 +10,8 @@ https://feedbackappapi.glitch.me
 
 ## Instructions 
 
+First you should connect to MongoDB. In .env file you can paste connection string in DB_CONNECT.
+
 Application have three categories for feedback: projects, CV and website. You can access this categories on following links:
 
 For projects:
